@@ -18,3 +18,6 @@ This project uses OpenAI's Whisper model to transcribe audio from video files an
 
 3. Install the required Python packages:
     pip install -r requirements.txt
+
+4. For CUDA support:
+    `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`

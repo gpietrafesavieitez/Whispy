@@ -1,5 +1,5 @@
 ffmpeg-python
 numpy==1.24.4
 torch
-whisper
+openai-whisper @ git+https://github.com/openai/whisper.git
 argparse
